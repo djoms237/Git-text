@@ -4,147 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LucaDCZ</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-    }
+  <link rel="stylesheet" href="style0.css">
 
-    .page {
-      border: 4px solid rgb(197, 122, 211);
-      margin: 40px;
-      padding: 40px;
-    }
-
-    /* En-tête */
-    header {
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .titre {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    .menu ul {
-      list-style: none;
-      display: flex;
-      gap: 30px;
-      margin: 0;
-      padding: 0;
-    }
-
-    .menu ul li a {
-      text-decoration: none;
-      font-weight: bold;
-      color: black;
-    }
-
-    .logo img {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-    }
-
-    /* Contenu principal */
-    .contenu-principal {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      text-align: left;
-      gap: 20px;
-      padding: 40px 20px;
-    }
-
-    .gauche, .droite {
-      flex: 1 1 300px;
-      margin: 10px;
-      text-align: center;
-    }
-
-    .gauche p {
-      font-size: 18px;
-    }
-
-    .gauche h1 {
-      font-size: 50px;
-      margin: 10px 0;
-    }
-
-    .bleu {
-      color: rgb(185, 3, 221);
-    }
-
-    .noir {
-      color: black;
-    }
-
-    .description {
-      color: #555;
-      font-size: 16px;
-      
-    }
-
-    .boutons {
-      margin-top: 20px;
-      display: flex;
-      gap: 15px;
-      justify-content: center;
-    }
-
-    .boutons button {
-      padding: 10px 20px;
-      font-weight: bold;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .boutons button:first-child {
-      background-color: black;
-      color: white;
-    }
-
-    .boutons button:last-child {
-      background-color: #f2f2f2;
-      color: black;
-    }
-
-    .droite .cadre-photo {
-      width: 320px;
-      height: 320px;
-      border-radius: 50%;
-      border: 4px solid rgb(193, 174, 193);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto;
-    }
-
-    .droite .cadre-photo img {
-      width: 280px;
-      height: 280px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    @media screen and (max-width: 768px) {
-      .contenu-principal {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      .droite {
-        margin-top: 30px;
-      }
-    }
-  </style>
 </head>
 <body>
   <div class="page">
@@ -155,7 +16,7 @@
         <ul>
           <li><a href="#" style="color: blue">Home</a></li>
           <li><a href="#">Projects</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#SECTION">About</a></li>
         </ul>
       </nav>
       <div class="logo">
@@ -185,6 +46,46 @@
           <img src="2.jpg" alt="Luca's Photo">
         </div>
       </div>
+    </div>
+   
+    <div class="footer" >
+       <div class="text" id="SECTION">
+           <h2>About Me</h2><br><br>
+           <p>As a dedicated front-end developer with a keen eye for design, I specialize in transforming ideas into engaging digital experiences. My journey in technology has equipped me with a diverse skill set, enabling me to craft intuitive interfaces that prioritize user experience and functionality. I am passionate ubout staying al the forefront of industry trends, continuously honing my crufl lo deliver innovative solutions. Let's collaborate to bring your vision to life and create impactful web applications that resonate with users.</p>
+       </div>
+      
+       <div class="icone">
+         <h3>SKILLS</h3>
+           <div class="icon">
+               <img src="html.png">
+               <h6>HTML</h6>
+           </div>
+           <div class="icon">
+               <img src="css.png">
+               <h6>CSS</h6>
+           </div>
+           <div class=icon>
+               <img src="js.png">
+               <h6>JavaScript</h6>
+           </div>
+           <div class="icon">
+               <img src="react.png">
+               <h6>React</h6>
+           </div>
+           <div class="icon">
+               <img src="T.png">
+               <h6>TailwindCSS</h6>
+           </div>
+           <div class="icon">
+               <img src="figma.png">
+               <h6>Figma</h6>
+           </div>
+           <div class="icon">
+               <img src="github.png">
+               <h6>GitHub</h6>
+           </div>
+
+       </div>
     </div>
   </div>
 </body>
